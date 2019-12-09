@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/><title>CAM calculation {{flat_number_title}}</title>
+<style type="text/css">
+@page { size: A4; margin: 1cm }
+table { border: 1px solid black;
+}
+th, td { text-align: left;
+	 padding: 8px;
+	 border: 1px solid black;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th { background-color: #4CAF50;
+     color: white;
+}
+p.small { font-size: 14px; }
+.center {
+    margin: auto;
+    width: 99%;
+    padding: 1px;
+}
+th.nob { border: none; }
+td.nob { border: none; }
+</style>
+</head>
+<body>
+<h3 style="text-align: center;"><strong>Aurum Grande Co-operative Housing Society Limited</strong></h3>
+<p class="small" style="text-align: center;">Lodha Aurum Grande, Kanjur Village Road, Kanjurmarg (East), Mumbai, Maharashtra - 400042<br />Phone : 022 - 66926407<br />Society Reg No : MUM/WS/HSG/TC/10795/2016 Dtd: 04/02/2016</p>
+<p style="text-align: center;">&nbsp;</p>
+<h4 style="text-align: center;"><strong>CAM expenses and surplus/deficit details shared by Lodha Developers</strong></h4>
+<table class="center">
+<tbody>
+<tr><td><strong>Flat Number: {{flat_number}}</strong></td><td style="text-align: right;"><strong>Carpet Area:</strong> {{carpet_area}}</td></tr>
+<tr><td class="nob"><strong>Owner:</strong> {{owner_name}}</td></tr>
+<tr><td><strong>Possession Date:</strong> {{possession_date}}</td><td style="text-align: right;"><strong>CAM start date:</strong> {{cam_start_date}}</td></tr>
+</tbody>
+</table>
+<p><strong>&nbsp;</strong></p>
+<table class="center">
+<tbody>
+<tr><td style="text-align: center;"><strong>SR. NO.</strong></td><td style="text-align: center;"><strong>PARTICULARS</strong></td><td style="text-align: center;"><strong>AMOUNT</strong></td></tr>
+<tr><td>1</td><td>CAM charges</td><td>{{cam_charges}}</td></tr>
+<tr><td>2</td><td>FCAM allocation</td><td>{{fcam_allocation}}</td></tr>
+<tr><td>3</td><td>Housekeeping</td><td>{{housekeeping}}</td></tr>
+<tr><td>4</td><td>Security</td><td>{{security}}</td></tr>
+<tr><td>5</td><td>MEP &amp; Admin</td><td>{{mep_admin}}</td></tr>
+<tr><td>6</td><td>Electricity</td><td>{{electricity}}</td></tr>
+<tr><td>7</td><td>Water</td><td>{{water}}</td></tr>
+<tr><td>8</td><td>Management Overhead</td><td>{{mgmt_overhead}}</td></tr>
+<tr><td>9</td><td>R &amp; M including AMCs</td><td>{{r_m_amc}}</td></tr>
+<tr><td>10</td><td>BCAM provision</td><td>{{bcam_provision}}</td></tr>
+<tr><td>11</td><td>CAM expenses</td><td>{{cam_expenses}}</td></tr>
+<tr><td><strong>12</strong></td><td><strong>CAM surplus / deficit</strong></td><td><strong>{{cam_surplus}}</strong></td></tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><strong>Notes:</strong>
+<ol>
+<li>All details above are as shared by Lodha Developers.</li>
+<li>These numbers are subject to ongoing audit, hence provisional in nature.</li>
+</ol>
+</p>
+</body>
+</html>
